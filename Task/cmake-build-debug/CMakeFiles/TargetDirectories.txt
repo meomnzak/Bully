@@ -1,0 +1,3 @@
+C:/Users/Mouman/Desktop/c3s/Task/cmake-build-debug/CMakeFiles/Task.dir
+C:/Users/Mouman/Desktop/c3s/Task/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Mouman/Desktop/c3s/Task/cmake-build-debug/CMakeFiles/rebuild_cache.dir

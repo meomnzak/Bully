@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mouman/Desktop/c3s/Task/Facilitator.cpp
+Facilitator.h
+C:/Users/Mouman/Desktop/c3s/Task/Facilitator.h
+windows.h
+-
+cstdio
+-
+conio.h
+-
+tchar.h
+-
+bits/stdc++.h
+-
+Message.h
+C:/Users/Mouman/Desktop/c3s/Task/Message.h
+
+C:/Users/Mouman/Desktop/c3s/Task/Facilitator.h
+bits/stdc++.h
+-
+winnt.h
+-
+afxres.h
+-
+
+C:/Users/Mouman/Desktop/c3s/Task/Message.h
+bits/stdc++.h
+-
+
