@@ -1,6 +1,6 @@
 # Bully Algorithm
 
-Simulate the [Bully Election](https://en.wikipedia.org/wiki/Bully_algorithm) algorithm using multiprocessing and shared memory communication technology.
+Simulate the [Bully election algorithm](https://en.wikipedia.org/wiki/Bully_algorithm) using multiprocessing and shared memory communication technology.
 
 ## Getting Started
 
