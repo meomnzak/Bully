@@ -16,7 +16,7 @@ Simulate the [Bully election algorithm](https://en.wikipedia.org/wiki/Bully_algo
 * I added a facilitator process which is running first and doesn’t participate in election it only helps processes. When the user type “start process” the facilitator makes a new process and create a shared memory between the facilitator and the new process. The information of the new processes are kept in a map in the facilitator process.
 
 * The format of the message in the shared memory is:
-  *isCoordinator|Time|makeComputation|arrSz|array
+  * isCoordinator|Time|makeComputation|arrSz|array
 * The isCoordinator field is a boolean to know the coordinator. The time is a field that every process increments by one every second. The facilitator has a globalTime field which is only updated by the coordinator and every other process check its time against the one given by coordinator when the coordinator is down it will not update the time and this will start election.
 * The winner of the election is decided in the facilitator since it has the id of all the processes and it will change the isCoordinator field in the new coordinator and make it true.
 * The last three fields in the message are related to the bonus feature. The makeComputation is a boolean which is true when we want to make a distributed computation. The arrSz field is the size of the array. The array field has the numbers of the array comma separated.
